@@ -1,0 +1,32 @@
+/* src/component/Card/Card.css */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 calc(30% - 10px); /* Chaque carte prend 50% de la largeur moins une petite marge */
+  margin-bottom: 20px; /* Espacement vertical entre les cartes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-top: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Agrandir légèrement la carte au survol */
+}
+
+.card img {
+  width: 100%; /* L'image prend toute la largeur de la carte */
+  height: auto;
+}
+
+.card-info {
+  padding: 10px;
+  text-align: center;
+}

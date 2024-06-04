@@ -1,0 +1,43 @@
+/* VoteConfirmation.css */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* Fond blanc */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal p {
+    margin-bottom: 20px;
+  }
+  
+  .modal button {
+    padding: 8px 20px;
+    background-color: #007bff; /* Bleu */
+    color: #fff; /* Texte blanc */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3; /* Bleu foncé au survol */
+  }
+  
+  

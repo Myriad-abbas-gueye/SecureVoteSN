@@ -1,0 +1,50 @@
+.connexion-container {
+  background-image: url('../../img/pexels-element-digital-1550337.jpg'); /* Ajoutez le chemin vers votre image de fond */
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
+  background-position: center; /* Centre l'image horizontalement et verticalement */
+  height: 100vh; /* Ajuste la hauteur du conteneur pour remplir tout l'écran */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Couleur du texte */
+}
+.connexion-form {
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente pour le formulaire */
+  padding:60px;
+  border-radius: 10px;
+  width: 400px; /* Largeur du formulaire */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff; /* Couleur de fond des champs de saisie */
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:  var(--orange); /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  cursor: pointer;
+  justify-self: center;
+  margin-top: 10%;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
